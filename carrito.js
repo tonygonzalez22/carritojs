@@ -1,6 +1,6 @@
 
 const productosDisponibles = [
-    { id: 1, nombre: "remera", precio: 20 },
+    { id: 1, nombre: "remeras", precio: 20 },
     { id: 2, nombre: "Pantalon", precio: 30 },
     { id: 3, nombre: "Zapatilla", precio: 50 },
     { id: 4, nombre: "Gorra", precio: 10 }
