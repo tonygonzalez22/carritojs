@@ -1,13 +1,19 @@
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Simulador Carrito de Compras</title>
+  <link rel="stylesheet" href="styles.css">
   <script src="carrito.js" defer></script>
 </head>
 <body>
   <h1>Simulador de Carrito de Compras</h1>
-  <p>Este simulador permite al usuario agregar productos a un carrito de compras, calcular el total a pagar y visualizar los productos seleccionados.
-    El usuarios interactúa mediante cuadro de diálogo y la consola del navegador.</p>
+  <p>Este simulador permite al usuario agregar producto a un carrito de compras, calcular el total a pagar y visualizar los productos seleccionados.
+    El usuario interactúa mediante eventos en los botones y la actualización dinámica del DOM.</p>
+  
+  <div id="productos"></div>
+  <button id="ver-carrito">Ver Carrito</button>
+  <div id="carrito"></div>
 </body>
 </html>
