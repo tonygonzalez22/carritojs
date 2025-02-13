@@ -9,11 +9,33 @@
 </head>
 <body>
   <h1>Simulador de Carrito de Compras</h1>
-  <p>Este simulador permite al usuario agregar producto a un carrito de compras, calcular el total a pagar y visualizar los productos seleccionados.
-    El usuario interactúa mediante eventos en los botones y la actualización dinámica del DOM.</p>
+  <p>Este simulador permite al usuario agregar productos a un carrito de compras, calcular el total a pagar y visualizar los productos seleccionados.</p>
+
+  <div id="usuario-info">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" placeholder="Ingrese su nombre">
+    
+    <label for="telefono">Teléfono:</label>
+    <input type="text" id="telefono" placeholder="Ingrese su teléfono">
+    
+    <label for="direccion">Dirección:</label>
+    <input type="text" id="direccion" placeholder="Ingrese su dirección">
+    
+    <label for="metodo-pago">Método de pago:</label>
+    <select id="metodo-pago">
+      <option value="efectivo">Efectivo</option>
+      <option value="tarjeta">Tarjeta</option>
+    </select>
+  </div>
   
+  <h2>Productos Disponibles</h2>
   <div id="productos"></div>
+  
+  <h2>Carrito de Compras</h2>
   <button id="ver-carrito">Ver Carrito</button>
   <div id="carrito"></div>
+  
+  <button id="finalizar-compra">Finalizar Compra</button>
+  <div id="mensaje-usuario"></div>
 </body>
 </html>
