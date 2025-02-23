@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "nombre": "camiseta boca",
+        "precio": 12000,
+        "imagen": "./remeraboca.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "pantalon de boca",
+        "precio": 18000,
+        "imagen": "./pantalonboca.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "botines adidas",
+        "precio": 25000,
+        "imagen": "./botinesboca.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Campera boca adidas",
+        "precio": 45000,
+        "imagen": "./caperaboca.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "piluso boca",
+        "precio": 8000,
+        "imagen": "./pilusoboca.jpg"
+    }
+]

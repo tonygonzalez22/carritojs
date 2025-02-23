@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="css/checkout.css">
+</head>
+<body>
+    <header>
+        <h1>Finalizar Compra</h1>
+        <a href="index.html" class="back-button">Volver a la Tienda</a>
+    </header>
+
+    <main>
+        <form id="checkout-form">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" required>
+
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" required>
+
+            <label for="metodo-pago">Método de Pago:</label>
+            <select id="metodo-pago">
+                <option value="efectivo">Efectivo (10% de Descuento)</option>
+                <option value="tarjeta">Tarjeta (+10% de Recargo)</option>
+            </select>
+
+            <button type="submit">Confirmar Compra</button>
+        </form>
+
+        <div id="ticket" class="hidden"></div>
+    </main>
+    <script src="js/storage.js"></script>
+    <script src="js/checkout.js"></script>
+</body>
+</html>
